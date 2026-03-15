@@ -6,29 +6,20 @@
   },
   "metadata": {
     "description": "Custom skill selection — documents + design/collab",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
-      "name": "document-skills",
-      "description": "Document processing: Excel, Word, PowerPoint, PDF",
+      "name": "my-skills",
+      "description": "Documents (xlsx, docx, pptx, pdf) + design/collab (algorithmic-art, canvas-design, doc-coauthoring, theme-factory)",
       "source": "./",
       "strict": false,
       "skills": [
         "./skills/xlsx",
         "./skills/docx",
         "./skills/pptx",
-        "./skills/pdf"
-      ]
-    },
-    {
-      "name": "design-skills",
-      "description": "Design and collaboration: algorithmic-art, brand-guidelines, canvas-design, doc-coauthoring, theme-factory",
-      "source": "./",
-      "strict": false,
-      "skills": [
+        "./skills/pdf",
         "./skills/algorithmic-art",
-        "./skills/brand-guidelines",
         "./skills/canvas-design",
         "./skills/doc-coauthoring",
         "./skills/theme-factory"
